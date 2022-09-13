@@ -101,12 +101,6 @@ body {
 
 .footer {
     background-color: var(--background-color-additional);
-    position: absolute;
-    box-sizing: border-box;
-    width: auto;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
 }
 
 .footer-address-ul {
