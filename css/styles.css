@@ -170,10 +170,6 @@ body {
 /* ----- our-features (текст під банером) ----- */
 /* .our-features {} */
 
-.special-title{
-    display: none;
-}
-
 .our-features-ul{
     color: var(--primery-text-color);
     list-style: none;
