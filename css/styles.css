@@ -1,0 +1,255 @@
+/* COLORS */
+:root{
+    --primery-text-color: #212121;
+    --additional-text-color: #FFFFFF;
+    --paragraph-tex-color: #757575;
+    --text-hover-color: #2196F3;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+    --background-color: #ffffff;
+    --background-color-additional: #2f303a;
+    --background-color-special: #F5F4FA;
+}
+
+/* ----- body+head+footer (тіло+шапка+підвал) ----- */
+/* ----- body (тіло) -----*/
+body {
+    background-color: white;
+}
+
+/* LOGO */
+/* "web" and "studio" style logo (in header and footer) */
+.webstudio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* options for tex "web" in logo */
+.web {
+    color: var(--text-hover-color);
+}
+/* options for tex "studio" in header logo */
+.studio-header {
+    color: var(--primery-text-color);
+}
+/* options for tex "studio" in footer logo */
+.studio-footer {
+    color: var(--additional-text-color);
+}
+
+/*  HEADER (шапка сайта)  */
+.link-h {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+}
+
+.header-nav {
+    cursor: pointer;
+    color: var(--additional-text-color);
+    list-style: none;
+}
+
+.header-nav-li {
+    color: var(--primery-text-color);
+}
+
+.header-nav-li:hover,
+.header-nav-li:focus{
+    color: var(--text-hover-color);
+}
+
+.header-contacts {
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    color: var(--paragraph-tex-color);
+}
+
+/* додаткові налаштування .header-contacts-tel{} .header-contacts-mail{} */
+
+.header-contacts-mail:focus,
+.header-contacts-mail:hover{
+    color: var(--text-hover-color);
+}
+
+.header-contacts-tel:focus,
+.header-contacts-tel:hover{
+    color: var(--text-hover-color);
+}
+
+
+/* ----- FOOTER section (підвал сайту) -----*/
+
+.link-f {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer {
+    background-color: var(--background-color-additional);
+    position: absolute;
+    box-sizing: border-box;
+    width: auto;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+}
+
+.footer-address-ul {
+    display: inline;
+    list-style: none;
+}
+
+.footer-address,
+.footer-contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.footer-address {
+    color: var(--additional-text-color);
+}
+
+.footer-address:hover,.footer-address:focus {
+    color: var(--text-hover-color);
+}
+
+.footer-contacts {
+    color: var(--footer-contact-color);
+}
+
+.footer-contacts:hover,.footer-contacts:focus {
+    color: var(--text-hover-color);
+}
+
+
+
+
+/* -------------- main index.html (основний контент index.html) --------------  */
+/* ------ HERO section (герой) ------*/
+.hero { 
+    background-color: var(--background-color-additional);
+    box-sizing: border-box;
+    width: auto;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+
+.hero-title {
+    color: var(--additional-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.006em;
+}
+
+.hero-button {
+    color: var(--additional-text-color);
+    background: var(--text-hover-color);
+    text-align: center;
+    display: flex;
+    position: absolute;
+}
+
+/* ----- our-features (текст під банером) ----- */
+/* .our-features {} */
+
+.our-features-ul{
+    color: var(--primery-text-color);
+    list-style: none;
+    display: flex;
+}
+
+/* .our-features-li {
+    color: var();
+} */
+
+.our-features-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.our-features-p {
+    color: var(--paragraph-tex-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.section-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* ----- what-do-we-do (чим ми займаємось) ----- */
+.what-do-we-do {
+    color: var(--primery-text-color)
+}
+
+/* .what-do-we-do-title {
+    color: var(--primery-text-color);
+} */
+
+.what-do-we-do-ul {
+    display: flex;
+    list-style: none;
+}
+
+/* .what-do-we-do-li {} */
+
+/* ----- our team (наша команда) ----- */
+.our-team {
+    background-color: var(--background-color-special);
+}
+
+/* .our-team-title {
+    color: var(--primery-text-color);
+} */
+
+.our-team-ul {
+    list-style: none;
+    display: flex;
+}
+
+
+/* .our-team-li {} */
+
+/* -------------- main potfolio.html (основний контент portfolio.html) --------------  */
+
+.portfofio-btn {
+    display: flex;
+}
