@@ -14,6 +14,7 @@
 /* ----- body (тіло) -----*/
 body {
     background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* LOGO */
@@ -49,7 +50,6 @@ body {
 }
 
 .header {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -110,7 +110,6 @@ body {
 
 .footer-address,
 .footer-contacts{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -150,7 +149,6 @@ body {
 
 .hero-title {
     color: var(--additional-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -181,7 +179,6 @@ body {
 } */
 
 .our-features-title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -191,7 +188,6 @@ body {
 }
 .our-features-p {
     color: var(--paragraph-tex-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -200,7 +196,6 @@ body {
 }
 
 .section-title{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
