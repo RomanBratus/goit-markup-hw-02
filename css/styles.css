@@ -227,7 +227,6 @@ body {
 /* ot-list located in <ul> and <li>*/
 .ot-list {
     list-style: none;
-    display: flex;
 }
 
 /* .ot-img {} */
