@@ -78,17 +78,15 @@ body {
     color: var(--paragraph-tex-color);
 }
 
-/* додаткові налаштування .header-contacts-tel{} .header-contacts-mail{} */
+.header-contacts{
+    color:#757575;
+}
 
-.header-contacts-mail:focus,
-.header-contacts-mail:hover{
+.header-contacts:focus,
+.header-contacts:hover{
     color: var(--text-hover-color);
 }
 
-.header-contacts-tel:focus,
-.header-contacts-tel:hover{
-    color: var(--text-hover-color);
-}
 
 
 /* ----- FOOTER section (підвал сайту) -----*/
