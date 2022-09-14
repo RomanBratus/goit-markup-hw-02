@@ -262,6 +262,11 @@ body {
     display: flex;
 }
 
+.p-btn:hover,
+.p-btn:focus{
+    
+}
+
 /* porfolio-btn located in <a> and <class=button>*/
 .porfolio-btn {
     list-style: none;
