@@ -190,6 +190,7 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* title in section 3 and 4  */
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -214,38 +215,55 @@ body {
 
 /* .what-do-we-do-li {} */
 
-/* ----- our team (наша команда) ----- */
+/* ----- our team (ot) (наша команда) section ----- */
 .our-team {
     background-color: var(--background-color-special);
 }
 
-/* .our-team-title {
+.ot-title {
     color: var(--primery-text-color);
-} */
+}
 
-.our-team-ul {
+/* ot-list located in <ul> and <li>*/
+.ot-list {
     list-style: none;
     display: flex;
 }
 
+/* .ot-img {} */
 
-/* .our-team-li {} */
+.ot-title {
+    color: var(--primery-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.ot-p {
+    color: var(--paragraph-tex-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 
 /* -------------- main potfolio.html (основний контент portfolio.html) --------------  */
 
-.portfofio-btn {
+.portfolio-btn {
     display: flex;
 }
 
 /* p-btn located in <ul> and <li> */
-
 .p-btn {
     list-style: none;
     display: flex;
 }
 
 /* porfolio-btn located in <a> and <class=button>*/
-
 .porfolio-btn {
     list-style: none;
     display: flex;
