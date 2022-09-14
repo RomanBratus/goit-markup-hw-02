@@ -17,6 +17,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hidden{
+    display:none;
+}
+
 /* LOGO */
 /* "web" and "studio" style logo (in header and footer) */
 .webstudio {
@@ -233,14 +237,15 @@ body {
     display: flex;
 }
 
-.hidden{
-    display:none;
-}
+/* p-btn located in <ul> and <li> */
 
 .p-btn {
     list-style: none;
     display: flex;
 }
+
+/* porfolio-btn located in <a> and <class=button>*/
+
 .porfolio-btn {
     list-style: none;
     display: flex;
