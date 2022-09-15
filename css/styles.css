@@ -270,10 +270,8 @@ body {
 .p-btnlist{
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-content: space-between;
     gap: 8px;
 }
 
@@ -316,7 +314,8 @@ body {
 }
 /*  */
 .p-li{
-font-style: normal;
+    font-style: normal;
+    box-sizing: border-box;
 }
 
 
