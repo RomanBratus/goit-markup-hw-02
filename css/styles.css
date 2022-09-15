@@ -105,10 +105,11 @@ body {
 
 .footer {
     background-color: var(--background-color-additional);
+    padding-left: 215px;
 }
 
 .footer-address-ul {
-    display: inline;
+    display: inline-block;
     list-style: none;
 }
 
@@ -118,6 +119,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding-left: 0;
 }
 
 .footer-address {
@@ -132,7 +134,8 @@ body {
     color: var(--footer-contact-color);
 }
 
-.footer-contacts:hover,.footer-contacts:focus {
+.footer-contacts:hover,
+.footer-contacts:focus {
     color: var(--text-hover-color);
 }
 
@@ -204,6 +207,8 @@ body {
     letter-spacing: 0.03em;
 }
 
+
+
 .sec3-list{
     width: 480px;
     margin: 0 auto;
@@ -223,16 +228,20 @@ body {
 /* ----- our team (ot) (наша команда) section ----- */
 .our-team {
     background-color: var(--background-color-special);
+    height: 648px;
 }
 
-/* .ot-title {} */
-
-/* ot-list located in <li> */
+/* ot-list located in our team <li> */
 .ot-li {
     display: flexbox;
+    margin: 0 auto;
+    background-color: var(--additional-text-color);
+    width: 270px;
 }
 
+
 /* .ot-img {} */
+
 
 .ot-title {
     color: var(--primery-text-color);
