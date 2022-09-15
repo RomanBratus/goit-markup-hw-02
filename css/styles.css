@@ -224,9 +224,15 @@ body {
     color: var(--primery-text-color);
 }
 
-/* ot-list located in <ul> and <li>*/
+/* ot-list located in <ul> */
 .ot-list {
     list-style: none;
+    display: flex;
+}
+
+/* ot-list located in <li> */
+.ot-li {
+    display: inline;
 }
 
 /* .ot-img {} */
@@ -271,4 +277,15 @@ body {
 .porfolio-btn {
     list-style: none;
     display: flex;
+}
+
+/* -portfolio (p) content - */
+
+.p-list {
+}
+.p-img {
+}
+.p-title {
+}
+.p-text {
 }
