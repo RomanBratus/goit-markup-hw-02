@@ -52,6 +52,10 @@ body {
     display: flex;
 }
 
+.navigation{
+    display: inline-flex;
+}
+
 .header {
     font-weight: 500;
     font-size: 14px;
@@ -81,7 +85,7 @@ body {
 }
 
 .header-contacts{
-    color:#757575;
+    color: var(--paragraph-tex-color);
 }
 
 .header-contacts:focus,
@@ -192,6 +196,7 @@ body {
 
 /* title in section 3 and 4  */
 .section-title{
+    color: var(--primery-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -199,20 +204,14 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* ----- what-do-we-do (чим ми займаємось) ----- */
-.what-do-we-do {
+/*  ----- what-do-we-do (чим ми займаємось) ----- */
+/* .what-do-we-do {
     color: var(--primery-text-color)
-}
+}  */
 
 /* .what-do-we-do-title {
     color: var(--primery-text-color);
 } */
-
-.what-do-we-do-ul {
-    display: flex;
-    list-style: none;
-}
-
 /* .what-do-we-do-li {} */
 
 /* ----- our team (ot) (наша команда) section ----- */
@@ -220,15 +219,10 @@ body {
     background-color: var(--background-color-special);
 }
 
-.ot-title {
+/* .ot-title {
     color: var(--primery-text-color);
-}
+} */
 
-/* ot-list located in <ul> */
-.ot-list {
-    list-style: none;
-    display: flex;
-}
 
 /* ot-list located in <li> */
 .ot-li {
@@ -258,42 +252,36 @@ body {
 
 /* -------------- main potfolio.html (основний контент portfolio.html) --------------  */
 
-.portfolio-btn {
-    display: flex;
-}
-
-/* p-btn located in <ul> and <li> */
 .p-btn {
-    list-style: none;
-    display: flex;
-}
 
-.p-btn:hover,
-.p-btn:focus{
+}
+.portfolio-btn {
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 4px;
+}
+.portfolio-btn:hover,.portfolio-btn:focus{
     cursor: pointer;
-    background-color: var(--text-hover-color);
-    color: var(--additional-text-color);
+    background-color: #2196F3;
 }
 
-/* porfolio-btn located in <a> and <class=button>*/
-.porfolio-btn {
-    list-style: none;
-    display: flex;
+.nav-btn {
 }
 
-/* -portfolio (p) content - */
-/* located in <ul> */
+
+
+/* ------------------------------------------------ */
 .p-list {
     list-style: none;
+
 }
 /* located in <li> */
 .p-li{
     list-style: none;
+    display: flexbox;
 }
-/* componrnts of <li> */
-.p-img {
-}
-.p-title {
-}
-.p-text {
+
+.flex-list{
+    list-style: none;
+    display: flex;
 }
