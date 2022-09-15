@@ -107,22 +107,25 @@ body {
 
 
 /* ----------------------- FOOTER section (підвал сайту) ----------------------*/
-
+/* global footer links option (налаштування для посилать) */
 .link-f {
     text-decoration: none;
     list-style: none;
 }
 
+/* footer section options (налаштування підвалу) */
 .footer {
     background-color: var(--background-color-additional);
     padding-left: 215px;
 }
 
+/* footer list options (налаштування списку в підвалі) */
 .footer-address-ul {
     display: inline-block;
     list-style: none;
 }
 
+/* footer font options (налаштування стилів в підвалі) */
 .footer-address,
 .footer-contacts{
     font-weight: 400;
@@ -133,18 +136,19 @@ body {
     font-style: normal;
 }
 
+/* footer address options (налаштування адреси в підвалі) */
 .footer-address {
     color: var(--additional-text-color);
 }
-
-.footer-address:hover,.footer-address:focus {
+.footer-address:hover,
+.footer-address:focus {
     color: var(--text-hover-color);
 }
 
+/* footer contacts options (налаштування контактів в підвалі) */
 .footer-contacts {
     color: var(--footer-contact-color);
 }
-
 .footer-contacts:hover,
 .footer-contacts:focus {
     color: var(--text-hover-color);
@@ -169,17 +173,24 @@ body {
     font-size: 44px;
     line-height: 60px;
     text-align: center;
-    letter-spacing: 0.006em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase
 }
 
 .hero-button {
     color: var(--additional-text-color);
     background: var(--text-hover-color);
     text-align: center;
-    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    height: 50px;
+    width: 220px;
+    border-radius: 4px;
 }
 
-/* ----- our-features (текст під банером) ----- */
+/* --------------------- our-features (текст під банером) -------------------- */
 /* .our-features {} */
 
 .our-features-ul{
@@ -198,6 +209,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 /* paragraph options (налаштування параграфу) */
 .our-features-p {
     color: var(--paragraph-tex-color);
@@ -218,6 +230,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 /*  налаштування списку (list options) */
 .sec3-ul{
     display: flex;
