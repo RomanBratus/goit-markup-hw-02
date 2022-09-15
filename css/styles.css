@@ -278,6 +278,7 @@ body {
 .portfolio-btn:focus{
     cursor: pointer;
     background-color: #2196F3;
+    color: var(--additional-text-color);
 }
 
 /* .nav-btn {
