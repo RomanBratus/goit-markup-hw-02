@@ -1,4 +1,4 @@
-/* COLORS */
+/* ---------------------------------- COLORS --------------------------------- */
 :root{
     --primery-text-color: #212121;
     --additional-text-color: #FFFFFF;
@@ -10,7 +10,7 @@
     --background-color-special: #F5F4FA;
 }
 
-/* ----- body+head+footer (тіло+шапка+підвал) ----- */
+/* ------------- body+logo+head+footer (тіло+логотип+шапка+підвал) ----------- */
 /* ----- body (тіло) -----*/
 body {
     background-color: #FFFFFF;
@@ -27,7 +27,7 @@ body {
     display: flex;
 }
 
-/* LOGO */
+/* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
 .webstudio {
     font-family: 'Raleway';
@@ -53,17 +53,15 @@ body {
     color: var(--additional-text-color);
 }
 
-/*  HEADER (шапка сайта)  */
+/* --------------------------- HEADER (шапка сайта) -------------------------- */
+/* global header links option (налаштування для посилать) */
 .link-h {
     text-decoration: none;
     list-style: none;
     display: flex;
 }
 
-.navigation{
-    display: inline-flex;
-}
-
+/* header navigation options (налаштування шапки) */
 .header {
     font-weight: 500;
     font-size: 14px;
@@ -71,22 +69,29 @@ body {
     display: flex;
 }
 
+/* header navigation section options (налаштування секції навігації) */
+.navigation{
+    display: inline-flex;
+}
+
+/* header navigation list options (налаштування списку навігації) */
 .header-nav {
     cursor: pointer;
     color: var(--additional-text-color);
 }
 
+/* header navigation link options (налаштування рядків списку навігації) */
 .header-nav-li {
     color: var(--primery-text-color);
     padding-right: 50px;
     margin-top: 12px;
 }
-
 .header-nav-li:hover,
 .header-nav-li:focus{
     color: var(--text-hover-color);
 }
 
+/* header contacts options (налаштування контактів в шапці) */
 .header-contacts {
     font-size: 14px;
     cursor: pointer;
@@ -94,7 +99,6 @@ body {
     color: var(--paragraph-tex-color);
     margin-top: 12px;
 }
-
 .header-contacts:focus,
 .header-contacts:hover{
     color: var(--text-hover-color);
@@ -102,7 +106,7 @@ body {
 
 
 
-/* ----- FOOTER section (підвал сайту) -----*/
+/* ----------------------- FOOTER section (підвал сайту) ----------------------*/
 
 .link-f {
     text-decoration: none;
@@ -149,8 +153,8 @@ body {
 
 
 
-/* -------------- main index.html (основний контент index.html) --------------  */
-/* ------ HERO section (герой) ------*/
+/* -------------- main index.html (основний контент index.html) -------------- */
+/* --------------------------- HERO section (герой) ---------------------------*/
 .hero { 
     background-color: var(--background-color-additional);
     box-sizing: border-box;
@@ -184,10 +188,9 @@ body {
     display: flex;
 }
 
-/* .our-features-li {
-    color: var();
-} */
+/* .our-features-li {} */
 
+/* title options (налаштування назви) */
 .our-features-title {
     font-weight: 700;
     font-size: 14px;
@@ -195,6 +198,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+/* paragraph options (налаштування параграфу) */
 .our-features-p {
     color: var(--paragraph-tex-color);
     font-weight: 400;
@@ -202,6 +206,8 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
 }
+
+/* ------------------------ section 3 (чим займаємось) ----------------------- */
 
 /* title in section 3 and 4  */
 .section-title{
@@ -212,26 +218,16 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
-
-
-.sec3-list{
-    width: 480px;
-    margin: 0 auto;
-    padding: 0 15px;
+/*  налаштування списку (list options) */
+.sec3-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    gap: 30px;    
 }
 
-/*  ----- what-do-we-do (чим ми займаємось) ----- */
-/* .what-do-we-do {
-    color: var(--primery-text-color)
-}  */
-
-/* .what-do-we-do-title {
-    color: var(--primery-text-color);
-} */
-/* .what-do-we-do-li {} */
-
-/* ----- our team (ot) (наша команда) section ----- */
+/* ------------------- our team (ot) (наша команда) section ------------------ */
 .our-team {
     background-color: var(--background-color-special);
     height: 648px;
@@ -265,8 +261,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* ---------------------------------PAGE 2------------------------------------ */
+/* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
 
-/* -------------- main potfolio.html (основний контент portfolio.html) --------------  */
+/* button list options (налаштування списка кнопок) */
 .p-btnlist{
     list-style: none;
     display: flex;
@@ -276,7 +274,7 @@ body {
 }
 
 /* .p-btn {} */
-
+/* button options (налаштування кнопки) */
 .portfolio-btn {
     margin-left: 10px;
     border-style: none;
@@ -302,7 +300,7 @@ body {
 
 
 
-/* ------ portfolio list ------- */
+/* ----------------------------- portfolio list ------------------------------ */
 .p-list {
     list-style: none;
     display: flex;
