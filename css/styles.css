@@ -30,6 +30,9 @@ body {
     line-height: 31px;
     text-decoration: none;
     list-style: none;
+    margin-left:215px;
+    margin-top: 31px;
+    padding-right: 90px;
 }
 
 /* options for tex "web" in logo */
@@ -70,6 +73,8 @@ body {
 
 .header-nav-li {
     color: var(--primery-text-color);
+    padding-right: 50px;
+    margin-top: 12px;
 }
 
 .header-nav-li:hover,
@@ -82,15 +87,16 @@ body {
     cursor: pointer;
     list-style: none;
     color: var(--paragraph-tex-color);
-}
-
-.header-contacts{
-    color: var(--paragraph-tex-color);
+    margin-top: 12px;
 }
 
 .header-contacts:focus,
 .header-contacts:hover{
     color: var(--text-hover-color);
+}
+
+.tel{
+    margin-right: 215px;
 }
 
 
@@ -145,7 +151,6 @@ body {
     box-sizing: border-box;
     width: auto;
     height: 600px;
-    left: 0px;
     top: 80px;
 }
 
@@ -219,10 +224,7 @@ body {
     background-color: var(--background-color-special);
 }
 
-/* .ot-title {
-    color: var(--primery-text-color);
-} */
-
+/* .ot-title {} */
 
 /* ot-list located in <li> */
 .ot-li {
@@ -259,14 +261,17 @@ body {
     margin-left: 10px;
     border-style: none;
     border-radius: 4px;
+    height: 38px;
+    padding-right: 8px;
 }
-.portfolio-btn:hover,.portfolio-btn:focus{
+.portfolio-btn:hover,
+.portfolio-btn:focus{
     cursor: pointer;
     background-color: #2196F3;
 }
 
-.nav-btn {
-}
+/* .nav-btn {
+} */
 
 
 
