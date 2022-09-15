@@ -18,7 +18,7 @@ body {
 }
 
 .hidden{
-    display:none;
+    display: none;
 }
 
 /* LOGO */
@@ -30,7 +30,6 @@ body {
     line-height: 31px;
     text-decoration: none;
     list-style: none;
-    margin-left:215px;
     margin-top: 31px;
     padding-right: 90px;
 }
@@ -93,10 +92,6 @@ body {
 .header-contacts:focus,
 .header-contacts:hover{
     color: var(--text-hover-color);
-}
-
-.tel{
-    margin-right: 215px;
 }
 
 
@@ -207,6 +202,12 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.sec3-list{
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /*  ----- what-do-we-do (чим ми займаємось) ----- */
