@@ -280,9 +280,15 @@ body {
 }
 
 /* -portfolio (p) content - */
-
+/* located in <ul> */
 .p-list {
+    list-style: none;
 }
+/* located in <li> */
+.p-li{
+
+}
+/* componrnts of <li> */
 .p-img {
 }
 .p-title {
