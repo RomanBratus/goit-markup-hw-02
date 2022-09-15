@@ -232,7 +232,7 @@ body {
 
 /* ot-list located in <li> */
 .ot-li {
-    display: inline;
+    display: flexbox;
 }
 
 /* .ot-img {} */
@@ -270,7 +270,9 @@ body {
 
 .p-btn:hover,
 .p-btn:focus{
-    
+    cursor: pointer;
+    background-color: var(--text-hover-color);
+    color: var(--additional-text-color);
 }
 
 /* porfolio-btn located in <a> and <class=button>*/
@@ -286,7 +288,7 @@ body {
 }
 /* located in <li> */
 .p-li{
-
+    list-style: none;
 }
 /* componrnts of <li> */
 .p-img {
