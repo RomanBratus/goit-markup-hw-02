@@ -16,36 +16,42 @@
 
   <body>
     <!-- Шапка сторінки -->
-    <header class="header">
-      <nav class="navigation">
+    <header class="topbar">
+      <nav class="topbar-navigation">
         <!-- Логотип -->
-        <a href="./index.html" class="logo"
-          ><span class="web">Web</span
+        <a href="./index.html" class="logo link-header"
+          ><span class="word-web">Web</span
           ><span class="studio-header">Studio</span></a
         >
         <!-- Навігація по сторінці -->
-        <ul class="header-nav link-h">
-          <li class="header-nav-li">
-            <a href="./index.html" class="link-h header-nav-li">Студія</a>
+        <ul class="topbar-navigation-list">
+          <li class="topbar-navigation-group">
+            <a href="./index.html" class="link-header topbar-navigation-link"
+              >Студія</a
+            >
           </li>
-          <li class="header-nav-li">
-            <a href="./portfolio.html" class="link-h header-nav-li"
+          <li class="topbar-navigation-group">
+            <a
+              href="./portfolio.html"
+              class="link-header topbar-navigation-link"
               >Портфоліо</a
             >
           </li>
-          <li class="header-nav-li">
-            <a href="" class="link-h header-nav-li">Контакти</a>
+          <li class="topbar-navigation-group">
+            <a href="#" class="link-header topbar-navigation-link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="header-contacts link-h">
-        <li class="header-contacts">
-          <a href="mailto:info@devstudio.com" class="link-h header-contacts"
+      <ul class="topbar-contacts-list">
+        <li class="topbar-contacts-group">
+          <a
+            href="mailto:info@devstudio.com"
+            class="link-header topbar-contacts-link"
             >info@devstudio.com</a
           >
         </li>
-        <li class="header-contacts">
-          <a href="tel:+380961111111" class="link-h header-contacts"
+        <li class="topbar-contacts-group">
+          <a href="tel:+380961111111" class="link-header topbar-contacts-link"
             >+38 096 111 11 11</a
           >
         </li>
@@ -57,23 +63,19 @@
         <h1 class="hidden">Портфоліо</h1>
         <ul class="flex-list p-btnlist">
           <li class="p-btn">
-            <button type="button" class="portfolio-btn">Усі
-            </button>
+            <button type="button" class="portfolio-btn">Усі</button>
           </li>
           <li class="p-btn">
             <button type="button" class="portfolio-btn">Веб-сайти</button>
           </li>
           <li class="p-btn">
             <button type="button" class="portfolio-btn">Додатки</button>
-            </button>
           </li>
           <li class="p-btn">
             <button type="button" class="portfolio-btn">Дизайн</button>
-            </button>
           </li>
           <li class="p-btn">
             <button type="button" class="portfolio-btn">Маркетинг</button>
-            </button>
           </li>
         </ul>
         <ul class="p-list">

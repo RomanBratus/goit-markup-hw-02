@@ -31,22 +31,24 @@ body {
     margin: -1px;
 }
 
-.flex-list{
+/* .flex-list{
     list-style: none;
     display: flex;
-}
+} */
 
 /* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
 .logo {
     font-family: 'Raleway', sans-serif;
+}
+
+/* options font LOGO (located in header and footer) */
+.word-web,
+.studio-header,
+.studio-footer{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
-    list-style: none;
-    margin-top: 31px;
-    padding-right: 90px;
 }
 
 /* options for tex "web" in logo */
@@ -62,12 +64,14 @@ body {
     color: var(--additional-text-color);
 }
 
-/* --------------------------- HEADER (шапка сайта) -------------------------- */
-/* global header links option (налаштування для посилать) */
+/* =========================== HEADER (шапка сайта) ========================== */
+/* header links option (налаштування для посилать) */
 .link-header {
     text-decoration: none;
-    list-style: none;
-    display: flex;
+}
+
+.topbar-navigation-link, 
+.topbar-contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -76,46 +80,55 @@ body {
 /* header navigation options (налаштування шапки) */
 .topbar {
     display: flex;
+    justify-content: center;
 }
 
+/* ---------------------------- header navigation ---------------------------- */
 /* header navigation section options (налаштування секції навігації) */
 .topbar-navigation{
     display: inline-flex;
 }
 
-/* header navigation list options (налаштування списку навігації) */
-.header-nav {
-    cursor: pointer;
-    color: var(--additional-text-color);
+.topbar-navigation-list{
+    list-style: none;
+    display: flex;
 }
+
+/* header navigation list options (налаштування списку навігації) */
+.topbar-navigation-group {}
 
 /* header navigation link options (налаштування рядків списку навігації) */
-.header-nav-li {
+.topbar-navigation-link{
     color: var(--primery-text-color);
-    padding-right: 50px;
-    margin-top: 12px;
 }
-.header-nav-li:hover,
-.header-nav-li:focus{
+.topbar-navigation-link:hover,
+.topbar-navigation-link:focus{
     color: var(--text-hover-color);
 }
 
-/* header contacts options (налаштування контактів в шапці) */
-.header-contacts {
-    font-size: 14px;
-    cursor: pointer;
+/* ----------------------------- header contacts ----------------------------- */
+
+.topbar-contacts-list{
     list-style: none;
-    color: var(--paragraph-tex-color);
-    margin-top: 12px;
 }
-.header-contacts:focus,
-.header-contacts:hover{
+
+.topbar-contacts-group {}
+
+
+
+/* ----------------------------- header contacts ----------------------------- */
+/* header contacts color and hover (налаштування контактів в шапці) */
+.topbar-contacts-link {
+    color: var(--paragraph-tex-color);
+}
+.topbar-contacts-link:focus,
+.topbar-contacts-link:hover{
     color: var(--text-hover-color);
 }
 
 
 
-/* ----------------------- FOOTER section (підвал сайту) ----------------------*/
+/* -====================== FOOTER section (підвал сайту) ======================*/
 /* global footer links option (налаштування для посилать) */
 .link-f {
     text-decoration: none;
@@ -164,8 +177,8 @@ body {
 
 
 
-/* -------------- main index.html (основний контент index.html) -------------- */
-/* --------------------------- HERO section (герой) ---------------------------*/
+/* ++++++++++++++ main index.html (основний контент index.html) ++++++++++++++ */
+/* =========================== HERO section (герой) ===========================*/
 .hero { 
     background-color: var(--background-color-additional);
     box-sizing: border-box;
@@ -279,7 +292,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* ---------------------------------PAGE 2------------------------------------ */
+/* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
 
 /* button list options (налаштування списка кнопок) */
