@@ -38,11 +38,11 @@ body {
 
 /* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
-.webstudio {
-    font-family: 'Raleway';
+.logo {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     text-decoration: none;
     list-style: none;
     margin-top: 31px;
@@ -50,7 +50,7 @@ body {
 }
 
 /* options for tex "web" in logo */
-.web {
+.word-web {
     color: var(--text-hover-color);
 }
 /* options for tex "studio" in header logo */
@@ -64,22 +64,22 @@ body {
 
 /* --------------------------- HEADER (шапка сайта) -------------------------- */
 /* global header links option (налаштування для посилать) */
-.link-h {
+.link-header {
     text-decoration: none;
     list-style: none;
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 /* header navigation options (налаштування шапки) */
-.header {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+.topbar {
     display: flex;
 }
 
 /* header navigation section options (налаштування секції навігації) */
-.navigation{
+.topbar-navigation{
     display: inline-flex;
 }
 
@@ -137,12 +137,10 @@ body {
 /* footer font options (налаштування стилів в підвалі) */
 .footer-address,
 .footer-contacts{
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     padding-left: 0;
-    font-style: normal;
 }
 
 /* footer address options (налаштування адреси в підвалі) */
@@ -180,7 +178,7 @@ body {
     color: var(--additional-text-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase
@@ -192,7 +190,7 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     height: 50px;
     width: 220px;
@@ -214,7 +212,7 @@ body {
 .our-features-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -222,9 +220,8 @@ body {
 /* paragraph options (налаштування параграфу) */
 .our-features-p {
     color: var(--paragraph-tex-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -235,13 +232,13 @@ body {
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 /*  налаштування списку (list options) */
-.sec3-ul{
+.section-3-list{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -269,16 +266,15 @@ body {
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .ot-p {
     color: var(--paragraph-tex-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -298,6 +294,7 @@ body {
 /* .p-btn {} */
 /* button options (налаштування кнопки) */
 .portfolio-btn {
+    font-family: inherit;
     margin-left: 10px;
     border-style: none;
     border-radius: 4px;
@@ -305,7 +302,7 @@ body {
     padding-right: 8px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
     padding-left: 20px;
@@ -334,7 +331,6 @@ body {
 }
 /*  */
 .p-li{
-    font-style: normal;
     box-sizing: border-box;
 }
 
@@ -343,13 +339,12 @@ body {
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
 }
 
 .p-text{
     color: var(--paragraph-tex-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
