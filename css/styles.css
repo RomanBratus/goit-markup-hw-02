@@ -41,6 +41,8 @@ body {
     display: flex;
 } */
 
+
+
 /* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
 .logo {
@@ -69,9 +71,9 @@ body {
     color: var(--additional-text-color);
 }
 
+
+
 /* =========================== HEADER (шапка сайта) ========================== */
-
-
 .topbar-navigation-link, 
 .topbar-contacts-link {
     font-weight: 500;
@@ -196,6 +198,7 @@ body {
 .hero-button {
     color: var(--additional-text-color);
     background: var(--text-hover-color);
+    cursor: pointer;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -205,11 +208,10 @@ body {
     height: 50px;
     width: 220px;
     border-radius: 4px;
+    border-style: none;
 }
-
 .hero-button:hover,
 .hero-button:focus{
-    cursor: pointer;
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -244,7 +246,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* ------------------------ section 3 (чим займаємось) ----------------------- */
+/* ======================= img-section (чим займаємось) ======================= */
 
 /* title in section 3 and 4  */
 .img-section-title,.our-team-main-title{
@@ -269,14 +271,13 @@ body {
 
 /* .img-section-picture{} */
 
-/* ------------------- our team (ot) (наша команда) section ------------------ */
+/* =================== our team (ot) (наша команда) section =================== */
 .our-team {
     background-color: var(--background-color-special);
     height: auto;
 }
 
 /* .our-team-title {} */
-
 /* .our-team-list{} */
 
 .our-team-group{
@@ -311,7 +312,7 @@ body {
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
 
 /* button list options (налаштування списка кнопок) */
-.p-btnlist{
+.porfolio-btn-list{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -319,36 +320,35 @@ body {
     gap: 8px;
 }
 
-/* .p-btn {} */
+/* .porfolio-btn-grop {} */
+
 /* button options (налаштування кнопки) */
 .portfolio-btn {
+    cursor: pointer;
     font-family: inherit;
-    margin-left: 10px;
-    border-style: none;
-    border-radius: 4px;
-    height: 38px;
-    padding-right: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
     text-align: center;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+    /* btn style */
+    border-style: none;
+    border-radius: 4px;
+    height: 38px;
     padding-left: 20px;
     padding-right: 20px;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-    cursor: pointer;
     background-color: #2196F3;
     color: var(--additional-text-color);
 }
 
 /* .nav-btn {} */
 
-
-
-/* ----------------------------- portfolio list ------------------------------ */
-.p-list {
+/* ============================ porfolio-link-list ============================ */
+.porfolio-link-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -357,20 +357,21 @@ body {
     align-content: space-between;
     gap: 30px;
 }
-/*  */
-.p-li{
-    box-sizing: border-box;
-}
 
+/* .porfolio-link-group {} */
 
-.p-title{
+/* .portfolio-links {} */
+
+/* .porfolio-link-img {} */
+
+.porfolio-link-title{
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
-.p-text{
+.porfolio-link-text{
     color: var(--paragraph-tex-color);
     font-size: 16px;
     line-height: 1.87;
