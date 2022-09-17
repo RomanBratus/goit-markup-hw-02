@@ -97,10 +97,10 @@ body {
     display: inline-flex;
 }
 
-.topbar-navigation-list{}
+/* .topbar-navigation-list{} */
 
 /* header navigation list options (налаштування списку навігації) */
-.topbar-navigation-group {}
+/* .topbar-navigation-group {} */
 
 /* header navigation link options (налаштування рядків списку навігації) */
 .topbar-navigation-link{
@@ -112,10 +112,10 @@ body {
 }
 
 /* ----------------------------- header contacts ----------------------------- */
-.topbar-contacts-list{}
+/* .topbar-contacts-list{} */
 
 /* header contacts list options (налаштування списку контактів) */
-.topbar-contacts-group {}
+/* .topbar-contacts-group {} */
 
 /* header contacts color and hover (налаштування контактів в шапці) */
 .topbar-contacts-link {
@@ -129,48 +129,44 @@ body {
 
 
 /* -====================== FOOTER section (підвал сайту) ======================*/
-/* global footer links option (налаштування для посилать) */
-.link-f {
-    text-decoration: none;
-    list-style: none;
-}
-
 /* footer section options (налаштування підвалу) */
-.footer {
+.basement {
     background-color: var(--background-color-additional);
     padding-left: 215px;
 }
 
 /* footer list options (налаштування списку в підвалі) */
-.footer-address-ul {
-    display: inline-block;
+.basement-list {
+    display: inline;
     list-style: none;
 }
 
-/* footer font options (налаштування стилів в підвалі) */
-.footer-address,
-.footer-contacts{
+/* .basement-group{} */
+
+/* footer address options (налаштування адреси в підвалі) */
+.basement-address,
+.basement-contacts{
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    padding-left: 0;
 }
 
-/* footer address options (налаштування адреси в підвалі) */
-.footer-address {
+.basement-address{
     color: var(--additional-text-color);
 }
-.footer-address:hover,
-.footer-address:focus {
+.basement-address:hover,
+.basement-address:focus {
     color: var(--text-hover-color);
 }
 
 /* footer contacts options (налаштування контактів в підвалі) */
-.footer-contacts {
+.basement-contacts {
     color: var(--footer-contact-color);
 }
-.footer-contacts:hover,
-.footer-contacts:focus {
+.basement-contacts:hover,
+.basement-contacts:focus {
     color: var(--text-hover-color);
 }
 
