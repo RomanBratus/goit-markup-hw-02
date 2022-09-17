@@ -31,6 +31,11 @@ body {
     margin: -1px;
 }
 
+/* links option (налаштування для посилать) */
+.link-options {
+    text-decoration: none;
+}
+
 /* .flex-list{
     list-style: none;
     display: flex;
@@ -65,16 +70,19 @@ body {
 }
 
 /* =========================== HEADER (шапка сайта) ========================== */
-/* header links option (налаштування для посилать) */
-.link-header {
-    text-decoration: none;
-}
+
 
 .topbar-navigation-link, 
 .topbar-contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+}
+
+.topbar-navigation-list,
+.topbar-contacts-list{
+    list-style: none;
+    display: flex;
 }
 
 /* header navigation options (налаштування шапки) */
@@ -89,10 +97,7 @@ body {
     display: inline-flex;
 }
 
-.topbar-navigation-list{
-    list-style: none;
-    display: flex;
-}
+.topbar-navigation-list{}
 
 /* header navigation list options (налаштування списку навігації) */
 .topbar-navigation-group {}
@@ -107,16 +112,11 @@ body {
 }
 
 /* ----------------------------- header contacts ----------------------------- */
+.topbar-contacts-list{}
 
-.topbar-contacts-list{
-    list-style: none;
-}
-
+/* header contacts list options (налаштування списку контактів) */
 .topbar-contacts-group {}
 
-
-
-/* ----------------------------- header contacts ----------------------------- */
 /* header contacts color and hover (налаштування контактів в шапці) */
 .topbar-contacts-link {
     color: var(--paragraph-tex-color);
