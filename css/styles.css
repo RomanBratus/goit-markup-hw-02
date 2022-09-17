@@ -247,7 +247,7 @@ body {
 /* ------------------------ section 3 (чим займаємось) ----------------------- */
 
 /* title in section 3 and 4  */
-.section-title{
+.img-section-title,.our-team-main-title{
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -257,31 +257,38 @@ body {
 }
 
 /*  налаштування списку (list options) */
-.section-3-list{
+.img-section-list,
+.our-team-list{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
+    list-style: none;
     gap: 30px;    
 }
+
+/* .img-section-picture{} */
 
 /* ------------------- our team (ot) (наша команда) section ------------------ */
 .our-team {
     background-color: var(--background-color-special);
-    height: 648px;
+    height: auto;
 }
 
-/* ot-list located in our team <li> */
-.ot-li {
+/* .our-team-title {} */
+
+/* .our-team-list{} */
+
+.our-team-group{
     display: flexbox;
     margin: 0 auto;
     background-color: var(--additional-text-color);
-    width: 270px;
+    width: 270px;    
 }
 
-/* .ot-img {} */
+/* .our-team-img {} */
 
-.ot-title {
+.our-team-title {
     color: var(--primery-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -290,13 +297,15 @@ body {
     letter-spacing: 0.03em;
 }
 
-.ot-p {
+.our-team-text {
     color: var(--paragraph-tex-color);
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
 }
+
+
 
 /* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
