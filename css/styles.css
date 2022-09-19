@@ -324,6 +324,7 @@ body {
 
 /* button options (налаштування кнопки) */
 .portfolio-btn {
+    background-color: var(--background-color-special);
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
